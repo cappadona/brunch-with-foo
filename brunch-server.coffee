@@ -4,6 +4,6 @@ module.exports = (port, path, callback) ->
   bs.init {
     server: path
     port: port
-    files: 'app/assets/**/*, app/styles/**/*'
+    files: 'app/*.jade, app/assets/**/*, app/styles/**/*'
   }, callback
   return

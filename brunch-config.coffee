@@ -7,3 +7,12 @@ exports.config =
       joinTo: 'app.css'
     templates:
       joinTo: 'app.js'
+  plugins:
+    static:
+      processors: [
+        require('html-brunch-static') {
+          processors: [
+            require('jade-brunch-static')(pretty: true)
+          ]
+        }
+      ]
