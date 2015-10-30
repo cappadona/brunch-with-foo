@@ -11,7 +11,7 @@
     "start": "brunch watch --server"
   },
   "devDependencies": {
-    "auto-reload-brunch": ">= 1.0 < 1.9",
+    "browser-sync": "^2.9.11",
     "brunch": "^1.8.5",
     "javascript-brunch": "^1.8.0",
     "sass-brunch": "^1.9.1",
