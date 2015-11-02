@@ -8,6 +8,9 @@ exports.config =
     templates:
       joinTo: 'app.js'
   plugins:
+    sass:
+      options:
+        includePaths: ['node_modules/bootstrap/scss']
     static:
       processors: [
         require('html-brunch-static') {
