@@ -11,7 +11,8 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
-    "bootstrap": "twbs/bootstrap#v4-dev"
+    "bootstrap": "twbs/bootstrap#v4-dev",
+    "jquery": "^2.1.4"
   },
   "devDependencies": {
     "browser-sync": "^2.9.11",

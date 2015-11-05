@@ -5,6 +5,10 @@ module.exports = config:
   files:
     javascripts:
       joinTo: 'js/app.js'
+      order:
+        before: [
+          'node_modules/jquery/dist/jquery.js'
+        ]
     stylesheets:
       joinTo: 'app.css'
   plugins:
