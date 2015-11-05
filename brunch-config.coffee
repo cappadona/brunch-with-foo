@@ -1,12 +1,12 @@
-exports.config =
+module.exports = config:
   # See http://brunch.io/#documentation for docs.
+  npm:
+    enabled: true
   files:
     javascripts:
-      joinTo: 'app.js'
+      joinTo: 'js/app.js'
     stylesheets:
       joinTo: 'app.css'
-    templates:
-      joinTo: 'app.js'
   plugins:
     sass:
       options:
